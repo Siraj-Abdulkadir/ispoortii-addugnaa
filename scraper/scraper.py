@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
-bbc_url='Link-Here'
+your_url='URL_HERE'
 
-headers = {'User-Agents':'Your-User-Agent-Here'}
+headers = {'User-Agents':'YOUR USER AGENT HERE'}
 
-response = requests.get(url=bbc_url,headers=headers)
+response = requests.get(url=your_url,headers=headers)
 
 response.encoding ='utf-8'
 
@@ -29,7 +29,7 @@ def Scraper():
 
     download_response = requests.get(url=figure_src)
 
-    with open('Image_name', 'wb') as f:
+    with open('image.jpg', 'wb') as f:
         f.write(download_response.content)     
-
+    print("Succesfully Scraped your target!!!")
     return article_title,paragraph_contents
