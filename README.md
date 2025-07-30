@@ -2,7 +2,7 @@
 Chaanaalii telegram kan oduu ispoortii attatama fi odeefano adda adda automatically afaan oromootiin maxxansu
 
 ## Telegram Chaanaalii Kegna:
-###  <a target="_blank" href="https://t.me/IspoortiiAddugnaa">Ispoortii Addugnaa</a>
+###  <a target="_blank" href="https://t.me/Ispoortii_Addunyaa">Ispoortii Addugnaa</a>
    
 ## 🛠️ Akkamittin coodii isaa ilaalu dandessu?
 Jalqaba repository kana clone godha:
